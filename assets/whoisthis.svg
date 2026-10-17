@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280">
+<defs>
+  <filter id="sk" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#0E8C8C" stroke-width="1.6" opacity=".45"/>
+  </pattern>
+  <pattern id="hatchA" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#F2A33A" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+  <style>
+    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#2B2B2B}
+    .ink{fill:none;stroke:#2B2B2B;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .teal{fill:none;stroke:#0E8C8C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .amb{fill:none;stroke:#E8912A;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .red{fill:none;stroke:#D9534F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+
+<rect x="6" y="6" width="408" height="268" rx="18" fill="#FBF7EF"/>
+<g filter="url(#sk)">
+  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="2"/>
+  
+  <!-- face -->
+  <ellipse cx="110" cy="105" rx="52" ry="62" class="ink"/>
+  <path d="M86 92 q8 -6 16 0 M120 92 q8 -6 16 0" class="ink"/>
+  <circle cx="94" cy="100" r="3" fill="#2B2B2B"/><circle cx="128" cy="100" r="3" fill="#2B2B2B"/>
+  <path d="M110 105 q-6 14 2 16 M96 132 q14 10 28 0" class="ink"/>
+  <path d="M60 88 q8 -50 54 -48 q44 2 48 46" class="ink" fill="url(#hatchA)"/>
+  <!-- detection box -->
+  <rect x="48" y="36" width="124" height="140" rx="4" class="teal" stroke-dasharray="8 6"/>
+  <!-- grid / histogram -->
+  <path d="M196 105 h22" class="ink"/><path d="M210 99 l8 6 l-8 6" class="ink"/>
+  <g class="ink" stroke-width="1.6">
+    <rect x="230" y="62" width="76" height="76"/>
+    <path d="M249 62 v76 M268 62 v76 M287 62 v76 M230 81 h76 M230 100 h76 M230 119 h76"/>
+  </g>
+  <rect x="249" y="81" width="19" height="19" fill="#0E8C8C" opacity=".3"/>
+  <path d="M318 138 v-18 M330 138 v-40 M342 138 v-28 M354 138 v-50 M366 138 v-22 M378 138 v-34" class="teal" stroke-width="7"/>
+  <text x="300" y="164" class="t" font-size="13" text-anchor="middle">LBP histograms</text>
+
+</g>
+<text x="26" y="232" class="t" font-size="22" font-weight="bold">Who is this?</text>
+<text x="26" y="256" class="t" font-size="14" opacity=".75">Face recognition · Haar + LBPH · Streamlit</text>
+<g filter="url(#sk)"><rect x="345.2" y="22" width="48.8" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
+<rect x="345.2" y="22" width="48.8" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
+<text x="369.6" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">live</text>
+</svg>

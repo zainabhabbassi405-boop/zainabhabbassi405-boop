@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250">
+<defs>
+  <filter id="sk" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#0E8C8C" stroke-width="1.6" opacity=".45"/>
+  </pattern>
+  <pattern id="hatchA" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#F2A33A" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+  <style>
+    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#2B2B2B}
+    .ink{fill:none;stroke:#2B2B2B;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .teal{fill:none;stroke:#0E8C8C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .amb{fill:none;stroke:#E8912A;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .red{fill:none;stroke:#D9534F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+
+<rect x="6" y="6" width="888" height="238" rx="22" fill="#FBF7EF"/>
+<g filter="url(#sk)">
+  <rect x="6" y="6" width="888" height="238" rx="22" class="ink" stroke-width="2"/>
+  <!-- underline -->
+  <path d="M40 112 C140 104 260 118 372 108" class="amb" stroke-width="5" opacity=".8"/>
+  <!-- sine wave -->
+  <path d="M470 125 q15 -40 30 0 t30 0 t30 0 t30 0" class="teal" stroke-width="3"/>
+  <path d="M600 125 l26 0" class="ink"/><path d="M618 117 l9 8 l-9 8" class="ink"/>
+  <!-- neural net -->
+  <g class="ink">
+    <circle cx="652" cy="95" r="9"/><circle cx="652" cy="125" r="9"/><circle cx="652" cy="155" r="9"/>
+    <circle cx="700" cy="108" r="9"/><circle cx="700" cy="142" r="9"/>
+    <circle cx="745" cy="125" r="11" fill="#0E8C8C" fill-opacity=".25"/>
+    <path d="M661 95 L691 108 M661 95 L691 142 M661 125 L691 108 M661 125 L691 142 M661 155 L691 108 M661 155 L691 142 M709 108 L734 125 M709 142 L734 125" stroke-width="1.5"/>
+  </g>
+  <path d="M760 125 l24 0" class="ink"/><path d="M776 117 l9 8 l-9 8" class="ink"/>
+  <!-- gear + bolt -->
+  <g transform="translate(828 125)">
+    <circle r="24" class="ink"/><circle r="9" class="ink"/>
+    <path d="M0 -24 v-9 M0 24 v9 M-24 0 h-9 M24 0 h9 M17 -17 l6 -6 M-17 17 l-6 6 M17 17 l6 6 M-17 -17 l-6 -6" class="ink" stroke-width="5"/>
+  </g>
+  <path d="M520 55 l-12 22 h12 l-10 22" class="amb" stroke-width="3"/>
+  <!-- doodle stars -->
+  <path d="M430 60 l0 14 M423 67 l14 0" class="ink" stroke-width="2"/>
+  <path d="M870 200 l0 12 M864 206 l12 0" class="ink" stroke-width="2"/>
+  <circle cx="600" cy="200" r="4" class="teal"/><circle cx="455" cy="200" r="3" class="amb"/>
+</g>
+<text x="40" y="70" class="t" font-size="20" opacity=".7">Hi, I'm</text>
+<text x="40" y="104" class="t" font-size="40" font-weight="bold">Zainab Habbassi</text>
+<text x="40" y="150" class="t" font-size="21"><tspan style="fill:#0E8C8C" font-weight="bold">AI</tspan> × <tspan style="fill:#E8912A" font-weight="bold">Energy</tspan> × <tspan font-weight="bold">Industrial Automation</tspan></text>
+<text x="40" y="185" class="t" font-size="15" opacity=".75">Electrical engineering student · EHTP Casablanca · Morocco</text>
+<text x="40" y="212" class="t" font-size="15" opacity=".75">I teach machines to notice when electrical systems are about to fail.</text>
+</svg>

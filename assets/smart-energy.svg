@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280">
+<defs>
+  <filter id="sk" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#0E8C8C" stroke-width="1.6" opacity=".45"/>
+  </pattern>
+  <pattern id="hatchA" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#F2A33A" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+  <style>
+    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#2B2B2B}
+    .ink{fill:none;stroke:#2B2B2B;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .teal{fill:none;stroke:#0E8C8C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .amb{fill:none;stroke:#E8912A;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .red{fill:none;stroke:#D9534F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+
+<rect x="6" y="6" width="408" height="268" rx="18" fill="#FBF7EF"/>
+<g filter="url(#sk)">
+  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="2"/>
+  
+  <!-- sun -->
+  <circle cx="62" cy="62" r="16" class="amb" fill="#E8912A" fill-opacity=".25"/>
+  <path d="M62 36 v-8 M62 88 v8 M36 62 h-8 M88 62 h8 M44 44 l-6 -6 M80 80 l6 6 M80 44 l6 -6 M44 80 l-6 6" class="amb"/>
+  <!-- solar panel -->
+  <path d="M40 150 l20 -40 h80 l-20 40 z" class="ink" fill="url(#hatch)"/>
+  <path d="M60 150 l20 -40 M80 150 l20 -40 M100 150 l20 -40 M50 130 h80" class="ink" stroke-width="1.4"/>
+  <path d="M90 150 v16 M76 166 h28" class="ink"/>
+  <!-- arrow -->
+  <path d="M150 130 h26" class="ink"/><path d="M168 123 l8 7 l-8 7" class="ink"/>
+  <!-- electrolyzer -->
+  <rect x="188" y="80" width="64" height="76" rx="8" class="ink"/>
+  <path d="M206 92 v52 M234 92 v52" class="ink" stroke-width="3"/>
+  <circle cx="214" cy="112" r="3" class="teal"/><circle cx="226" cy="100" r="4" class="teal"/><circle cx="218" cy="128" r="3" class="teal"/>
+  <text x="220" y="176" class="t" font-size="13" text-anchor="middle">H₂</text>
+  <!-- IoT cloud -->
+  <path d="M290 106 q-2 -22 20 -22 q6 -20 30 -14 q22 -6 28 16 q18 2 16 20 z" class="teal" fill="#0E8C8C" fill-opacity=".12"/>
+  <path d="M262 118 h20" class="ink" stroke-dasharray="4 5"/>
+  <path d="M310 120 q20 -14 40 0 M318 132 q12 -8 24 0" class="ink"/>
+  <circle cx="330" cy="142" r="3" fill="#2B2B2B"/>
+  <text x="335" y="176" class="t" font-size="13" text-anchor="middle">monitoring</text>
+
+</g>
+<text x="26" y="232" class="t" font-size="22" font-weight="bold">Smart Energy &amp; IoE</text>
+<text x="26" y="256" class="t" font-size="14" opacity=".75">Smart campus · Green hydrogen · IoT</text>
+<g filter="url(#sk)"><rect x="296.0" y="22" width="98.0" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
+<rect x="296.0" y="22" width="98.0" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
+<text x="345.0" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">coursework</text>
+</svg>
