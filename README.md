@@ -4,11 +4,10 @@
 
 ### 👋 About me
 
-I'm a final-year **electrical engineering** student at **EHTP** (Casablanca, Morocco).
+I'm a final-year **electrical engineering** student.
 I like the moment where a power system, a PLC and a bit of machine learning start talking to each other.
 
 - 🔧 **Right now:** building a predictive maintenance system for motor drives, from a Simulink model all the way to a PLC alarm
-- 🏭 **Field experience:** internships at **ACTEMIUM (VINCI Energies)** and **BUTEC Energies & Services**
 - 🌱 **Long-term:** AI for renewable energy and smarter industrial plants
 - 🎯 **Looking for:** a final-year internship (PFE) in AI for energy or industrial automation
 
