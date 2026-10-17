@@ -23,7 +23,7 @@ I like the moment where a power system, a PLC and a bit of machine learning star
     </td>
     <td width="50%" valign="top">
       <a href="#"><img src="assets/scada.svg" alt="SCADA for motor starters" width="100%"/></a>
-      <p>Control Expert project on a Schneider M340: DOL, star-delta and VFD starters with Grafcet logic and an operator screen. <i>Coming soon.</i></p>
+      <p>Control Expert project on a Schneider M340: DOL, reversing DOL, ATS, soft starter and VFD, each with its own Grafcet and an operator screen. <i>Coming soon.</i></p>
     </td>
   </tr>
   <tr>

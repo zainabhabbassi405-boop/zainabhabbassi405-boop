@@ -48,7 +48,7 @@
 </g>
 <text x="26" y="232" class="t" font-size="22" font-weight="bold">Motor Starters SCADA</text>
 <text x="26" y="256" class="t" font-size="14" opacity=".75">Schneider M340 · Grafcet · HMI</text>
-<g filter="url(#sk)"><rect x="255.0" y="22" width="139.0" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
-<rect x="255.0" y="22" width="139.0" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
-<text x="324.5" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">DOL · Y-Δ · VFD</text>
+<g filter="url(#sk)"><rect x="197.60000000000002" y="22" width="196.39999999999998" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
+<rect x="197.60000000000002" y="22" width="196.39999999999998" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
+<text x="295.8" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">DOL · RDOL · ATS · VFD</text>
 </svg>
