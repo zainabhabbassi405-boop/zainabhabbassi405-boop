@@ -5,23 +5,23 @@
     <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
   <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
-    <line x1="0" y1="0" x2="0" y2="7" stroke="#0E8C8C" stroke-width="1.6" opacity=".45"/>
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#5FD3E6" stroke-width="1.6" opacity=".45"/>
   </pattern>
   <pattern id="hatchA" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
-    <line x1="0" y1="0" x2="0" y2="7" stroke="#F2A33A" stroke-width="1.6" opacity=".55"/>
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#FFC857" stroke-width="1.6" opacity=".55"/>
   </pattern>
   <style>
-    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#2B2B2B}
-    .ink{fill:none;stroke:#2B2B2B;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-    .teal{fill:none;stroke:#0E8C8C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
-    .amb{fill:none;stroke:#E8912A;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#E6ECF5}
+    .ink{fill:none;stroke:#C9D4EA;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .teal{fill:none;stroke:#5FD3E6;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .amb{fill:none;stroke:#FFC857;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
     .red{fill:none;stroke:#D9534F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
   </style>
 </defs>
 
-<rect x="6" y="6" width="408" height="268" rx="18" fill="#FBF7EF"/>
+<rect x="6" y="6" width="408" height="268" rx="18" fill="#0E1430"/>
 <g filter="url(#sk)">
-  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="2"/>
+  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="1.6" style="stroke:#2A3566"/>
   
   <!-- motor -->
   <rect x="34" y="70" width="88" height="62" rx="10" class="ink" fill="url(#hatch)"/>
@@ -45,7 +45,7 @@
 </g>
 <text x="26" y="232" class="t" font-size="22" font-weight="bold">Predictive Maintenance</text>
 <text x="26" y="256" class="t" font-size="14" opacity=".75">Motor drive · Simulink → AI → PLC</text>
-<g filter="url(#sk)"><rect x="287.8" y="22" width="106.19999999999999" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
+<g filter="url(#sk)"><rect x="287.8" y="22" width="106.19999999999999" height="26" rx="13" fill="#5FD3E6" opacity=".14"/>
 <rect x="287.8" y="22" width="106.19999999999999" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
-<text x="340.9" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">in progress</text>
+<text x="340.9" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#5FD3E6">in progress</text>
 </svg>

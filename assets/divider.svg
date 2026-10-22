@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" width="1000" height="28">
+<defs><filter id="g" x="-10%" y="-200%" width="120%" height="500%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<line x1="0" y1="14" x2="1000" y2="14" stroke="#7FE9FF" stroke-opacity=".25" stroke-width="1"/>
+<path d="M0.0 14.0 L16.7 13.8 L33.3 13.8 L50.0 13.4 L66.7 14.1 L83.3 13.7 L100.0 14.5 L116.7 16.3 L133.3 15.6 L150.0 14.8 L166.7 10.0 L183.3 11.5 L200.0 15.7 L216.7 17.8 L233.3 15.0 L250.0 8.3 L266.7 17.3 L283.3 18.2 L300.0 15.0 L316.7 17.7 L333.3 9.3 L350.0 14.3 L366.7 13.1 L383.3 10.5 L400.0 21.9 L416.7 13.0 L433.3 19.2 L450.0 21.8 L466.7 13.5 L483.3 12.5 L500.0 11.0 L516.7 7.4 L533.3 8.3 L550.0 12.5 L566.7 13.9 L583.3 16.6 L600.0 12.4 L616.7 18.1 L633.3 6.9 L650.0 7.8 L666.7 10.4 L683.3 8.6 L700.0 17.7 L716.7 18.8 L733.3 18.1 L750.0 8.1 L766.7 18.2 L783.3 13.6 L800.0 9.6 L816.7 14.2 L833.3 15.0 L850.0 14.0 L866.7 13.6 L883.3 11.3 L900.0 12.8 L916.7 12.4 L933.3 13.3 L950.0 15.0 L966.7 14.0 L983.3 13.6 L1000.0 14.0" fill="none" stroke="#BFF4FF" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="140 1400" filter="url(#g)">
+  <animate attributeName="stroke-dashoffset" values="1540;0" dur="3s" repeatCount="indefinite"/>
+</path>
+</svg>

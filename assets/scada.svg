@@ -5,23 +5,23 @@
     <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
   <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
-    <line x1="0" y1="0" x2="0" y2="7" stroke="#0E8C8C" stroke-width="1.6" opacity=".45"/>
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#5FD3E6" stroke-width="1.6" opacity=".45"/>
   </pattern>
   <pattern id="hatchA" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
-    <line x1="0" y1="0" x2="0" y2="7" stroke="#F2A33A" stroke-width="1.6" opacity=".55"/>
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#FFC857" stroke-width="1.6" opacity=".55"/>
   </pattern>
   <style>
-    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#2B2B2B}
-    .ink{fill:none;stroke:#2B2B2B;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-    .teal{fill:none;stroke:#0E8C8C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
-    .amb{fill:none;stroke:#E8912A;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .t{font-family:'Segoe Print','Bradley Hand','Comic Neue','Comic Sans MS','Chalkboard SE',cursive;fill:#E6ECF5}
+    .ink{fill:none;stroke:#C9D4EA;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .teal{fill:none;stroke:#5FD3E6;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .amb{fill:none;stroke:#FFC857;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
     .red{fill:none;stroke:#D9534F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
   </style>
 </defs>
 
-<rect x="6" y="6" width="408" height="268" rx="18" fill="#FBF7EF"/>
+<rect x="6" y="6" width="408" height="268" rx="18" fill="#0E1430"/>
 <g filter="url(#sk)">
-  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="2"/>
+  <rect x="6" y="6" width="408" height="268" rx="18" class="ink" stroke-width="1.6" style="stroke:#2A3566"/>
   
   <!-- PLC rack -->
   <rect x="34" y="62" width="120" height="90" rx="8" class="ink"/>
@@ -29,7 +29,7 @@
   <rect x="70" y="72" width="20" height="70" rx="3" class="ink"/>
   <rect x="96" y="72" width="20" height="70" rx="3" class="ink"/>
   <rect x="122" y="72" width="20" height="70" rx="3" class="ink"/>
-  <circle cx="80" cy="84" r="3" fill="#0E8C8C"/><circle cx="106" cy="84" r="3" fill="#E8912A"/><circle cx="132" cy="84" r="3" fill="#0E8C8C"/>
+  <circle cx="80" cy="84" r="3" fill="#5FD3E6"/><circle cx="106" cy="84" r="3" fill="#FFC857"/><circle cx="132" cy="84" r="3" fill="#5FD3E6"/>
   <text x="70" y="172" class="t" font-size="13">PLC</text>
   <!-- grafcet -->
   <rect x="186" y="58" width="30" height="24" class="ink"/><rect x="190" y="62" width="22" height="16" class="ink" stroke-width="1.4"/>
@@ -40,15 +40,15 @@
   <!-- HMI screen -->
   <rect x="246" y="60" width="140" height="92" rx="8" class="ink"/>
   <path d="M260 132 l20 -24 l20 12 l20 -30 l20 18 l18 -10" class="teal"/>
-  <rect x="262" y="70" width="34" height="12" rx="3" class="amb" fill="#E8912A" fill-opacity=".2" stroke-width="1.6"/>
-  <circle cx="370" cy="76" r="5" fill="#0E8C8C"/>
+  <rect x="262" y="70" width="34" height="12" rx="3" class="amb" fill="#FFC857" fill-opacity=".2" stroke-width="1.6"/>
+  <circle cx="370" cy="76" r="5" fill="#5FD3E6"/>
   <path d="M300 152 v10 M330 152 v10 M290 162 h52" class="ink"/>
   <text x="316" y="185" class="t" font-size="13" text-anchor="middle">operator screen</text>
 
 </g>
 <text x="26" y="232" class="t" font-size="22" font-weight="bold">Motor Starters SCADA</text>
 <text x="26" y="256" class="t" font-size="14" opacity=".75">Schneider M340 · Grafcet · HMI</text>
-<g filter="url(#sk)"><rect x="197.60000000000002" y="22" width="196.39999999999998" height="26" rx="13" fill="#0E8C8C" opacity=".14"/>
+<g filter="url(#sk)"><rect x="197.60000000000002" y="22" width="196.39999999999998" height="26" rx="13" fill="#5FD3E6" opacity=".14"/>
 <rect x="197.60000000000002" y="22" width="196.39999999999998" height="26" rx="13" class="teal" stroke-width="1.6"/></g>
-<text x="295.8" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#0E8C8C">DOL · RDOL · ATS · VFD</text>
+<text x="295.8" y="40" class="t" font-size="13" text-anchor="middle" style="fill:#5FD3E6">DOL · RDOL · Soft · VFD</text>
 </svg>

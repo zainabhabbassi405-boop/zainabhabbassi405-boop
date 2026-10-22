@@ -11,7 +11,7 @@ I like the moment where a power system, a PLC and a bit of machine learning star
 - 🌱 **Long-term:** AI for renewable energy and smarter industrial plants
 - 🎯 **Looking for:** a final-year internship (PFE) in AI for energy or industrial automation
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### 🗂️ Projects
 
@@ -23,7 +23,7 @@ I like the moment where a power system, a PLC and a bit of machine learning star
     </td>
     <td width="50%" valign="top">
       <a href="#"><img src="assets/scada.svg" alt="SCADA for motor starters" width="100%"/></a>
-      <p>Control Expert project on a Schneider M340: DOL, reversing DOL, ATS, soft starter and VFD, each with its own Grafcet and an operator screen. <i>Coming soon.</i></p>
+      <p>Control Expert project on a Schneider M340: DOL, reversing DOL, soft starter and VFD, each with its own Grafcet and operator screen, plus an emergency-stop alarm and a start counter. <i>Coming soon.</i></p>
     </td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ I like the moment where a power system, a PLC and a bit of machine learning star
   </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### 🧰 Toolbox
 
@@ -60,7 +60,7 @@ I like the moment where a power system, a PLC and a bit of machine learning star
 ![Power electronics](https://img.shields.io/badge/Power%20electronics-E8912A)
 ![Renewables](https://img.shields.io/badge/Renewables%20%26%20H%E2%82%82-E8912A)
 
----
+<img src="assets/divider.svg" width="100%"/>
 
 ### 📫 Let's talk
 
